@@ -17,9 +17,6 @@ const GlobalStyles = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
   }
 
-  /* Adicione margem para todos os elementos, exceto o body */
-  *:not(body) {
-  }
 `;
 
 export default GlobalStyles;
