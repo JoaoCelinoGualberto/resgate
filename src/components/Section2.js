@@ -4,7 +4,7 @@ import { Section2Container, Title, List, ListItem } from '../styles/components/S
 const Section2 = () => {
   return (
     <Section2Container>
-      <Title>Vamos proporcionar:</Title>
+      <Title>VAMOS PROPORCIONAR</Title>
       <List>
         <ListItem>Identidade</ListItem>
         <ListItem>Dignidade</ListItem>

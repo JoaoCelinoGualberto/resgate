@@ -34,11 +34,11 @@ export const Link = styled.a`
 `;
 
 export const Button = styled.button`
-  background-color: transparent; /* Removemos o fundo */
+  background-color: transparent; 
   color: #FF7043;
   padding: 1% 2%; 
-  border: 1px solid #FF7043; /* Adicionamos uma borda com cor */
-  border-radius: 20px; /* Adicionamos bordas arredondadas */
+  border: 1px solid #FF7043;
+  border-radius: 20px; 
   cursor: pointer;
 `;
 
