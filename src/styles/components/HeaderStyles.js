@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const HeaderContainer = styled.header`
   background-color: #fff;
   color: #FF7043;
-  padding: 1% 3%; 
+  padding: 1% 10%; 
 `;
 
 export const HeaderContent = styled.div`
@@ -14,7 +14,7 @@ export const HeaderContent = styled.div`
 
 export const Logo = styled.img`
   width: 3.6%;
-  margin-right: -320px;
+  margin-right: -278px;
 `;
 
 export const Title = styled.h1`

@@ -7,7 +7,7 @@ const Header = () => {
     <HeaderContainer>
       <HeaderContent>
         <Logo src={logoImg} alt="Logo" />
-        <Title>Resgate</Title>
+        <Title>resgate</Title>
         <SocialLinks>
           <Link href="https://www.instagram.com/">Instagram</Link>
           <Link href="https://www.facebook.com/">Facebook</Link>
