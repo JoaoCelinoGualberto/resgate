@@ -4,6 +4,7 @@ export const Section6Container = styled.section`
   background-color: #f0f0f0;
   padding: 40px;
   text-align: left;
+  padding: 1% 10%; 
 `;
 
 export const Title = styled.h2`
