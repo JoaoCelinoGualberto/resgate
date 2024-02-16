@@ -1,18 +1,15 @@
-// styles/components/Section3Styles.js
 import styled from 'styled-components';
+import { FaUsers, FaUtensils, FaBed, FaFutbol, FaSwimmingPool, FaBriefcase, FaSeedling, FaDove, FaBreadSlice, FaChalkboardTeacher } from 'react-icons/fa';
 
 export const Section3Container = styled.section`
-background: linear-gradient(to bottom, #ffffff, #ffccbc);
-
-  padding: 40px;
-  text-align: left;
-  padding: 3% 10%; 
+  background: linear-gradient(to bottom, #ffffff, #ffccbc);
+  padding: 3% 10%;
 `;
 
 export const Title = styled.h2`
   font-size: 20px;
   margin-bottom: 20px;
-  font-weight:500;
+  font-weight: 500;
 `;
 
 export const Paragraph = styled.p`
@@ -40,6 +37,10 @@ export const ListItem = styled.li`
   align-items: center;
   transition: transform 0.3s ease; /* Adicionando uma transição suave para o efeito de escala */
 
+  @media screen and (max-width: 768px) {
+    width: 100%; /* Altera para ocupar toda a largura em dispositivos menores */
+  }
+
   &:hover {
     transform: scale(1.05); /* Aumenta o tamanho do item em 5% quando passa o mouse sobre ele */
   }
@@ -49,4 +50,8 @@ export const Icon = styled.i`
   font-size: 24px;
   margin-right: 10px;
   color: #FF7043; /* Cor laranja para os ícones */
+`;
+
+export const ListItemText = styled.span`
+  margin-left: 10px; /* Adiciona um espaço entre o ícone e o texto */
 `;
