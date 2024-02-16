@@ -1,29 +1,31 @@
+// styles/components/Section1Styles.js
 import styled from "styled-components";
 
 export const Section1Container = styled.section`
   background: linear-gradient(to bottom, #ffffff, #ffccbc);
-  padding: 40px;
+  padding: 5% 10%; /* Ajuste do padding para telas menores */
   text-align: center;
-  padding: 1% 10%; 
 `;
 
 export const ContentContainer = styled.div`
   display: flex;
-  justify-content: space-between;
+  flex-direction: column; /* Alterado para empilhar conteúdo em telas menores */
+  align-items: center; /* Centralizar conteúdo na tela */
 `;
 
 export const Content = styled.div`
-  width: 50%;
-  text-align: left;
+  width: 100%; /* Alterado para ocupar toda a largura disponível */
+  max-width: 600px; /* Limitando a largura do conteúdo */
+  text-align: center;
+  margin-bottom: 20px; /* Adicionado espaço inferior */
 `;
 
 export const Image = styled.img`
-  width: 50%;
+  width: 100%; /* Alterado para ocupar toda a largura disponível */
+  max-width: 600px; /* Limitando a largura da imagem */
   height: auto;
-  margin-left: 4%;
-  border-radius: 15px 50px 15px 50px; 
+  border-radius: 15px 50px 15px 50px;
 `;
-
 
 export const Title = styled.h2`
   font-size: 36px;
@@ -34,18 +36,7 @@ export const Title = styled.h2`
 export const Paragraph = styled.p`
   font-size: 18px;
   margin-bottom: 20px;
-  margin-right: 6%;
   text-align: justify;
 `;
 
-export const Button = styled.button`
-  background-color: #4CAF50;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
-  border-radius: 20px;
-  display: flex;
-  align-items: center; 
-`;
+  
