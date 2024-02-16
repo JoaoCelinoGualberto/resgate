@@ -1,17 +1,18 @@
-// Estilos para a Section3
+// styles/components/Section3Styles.js
 import styled from 'styled-components';
 
 export const Section3Container = styled.section`
-  background-color: #f0f0f0;
+background: linear-gradient(to bottom, #ffffff, #ffccbc);
+
   padding: 40px;
   text-align: left;
-  padding: 1% 10%; 
+  padding: 3% 10%; 
 `;
 
 export const Title = styled.h2`
   font-size: 20px;
   margin-bottom: 20px;
-  font-weight: normal;
+  font-weight:500;
 `;
 
 export const Paragraph = styled.p`
@@ -29,12 +30,23 @@ export const List = styled.ul`
 
 export const ListItem = styled.li`
   font-size: 18px;
-  margin-bottom: 10px;
-  width: calc(50% - 10px); /* Define a largura de cada card com base na largura da seção e no espaçamento entre eles */
-  background-color: #fff; /* Fundo branco para os cards */
+  margin-bottom: 20px;
+  width: calc(50% - 10px);
+  background-color: #fff;
   padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para os cards */
-  margin-bottom: 20px; /* Espaçamento entre os cards */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease; /* Adicionando uma transição suave para o efeito de escala */
+
+  &:hover {
+    transform: scale(1.05); /* Aumenta o tamanho do item em 5% quando passa o mouse sobre ele */
+  }
 `;
 
+export const Icon = styled.i`
+  font-size: 24px;
+  margin-right: 10px;
+  color: #FF7043; /* Cor laranja para os ícones */
+`;

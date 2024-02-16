@@ -2,22 +2,27 @@
 import styled from "styled-components";
 
 export const Section1Container = styled.section`
+  position: relative; /* Define o contexto de posicionamento */
   background: linear-gradient(to bottom, #ffffff, #ffccbc);
   padding: 5% 10%; /* Ajuste do padding para telas menores */
-  text-align: center;
+  max-width: 1200px; /* Largura máxima da seção */
+  margin: 0 auto; /* Centralizar na tela */
 `;
 
 export const ContentContainer = styled.div`
   display: flex;
-  flex-direction: column; /* Alterado para empilhar conteúdo em telas menores */
-  align-items: center; /* Centralizar conteúdo na tela */
+  flex-direction: column;
+  align-items: center; /* Centralizar o conteúdo horizontalmente */
+  text-align: center;
 `;
 
 export const Content = styled.div`
-  width: 100%; /* Alterado para ocupar toda a largura disponível */
   max-width: 600px; /* Limitando a largura do conteúdo */
-  text-align: center;
-  margin-bottom: 20px; /* Adicionado espaço inferior */
+  margin: 0 auto; /* Centralizar o conteúdo horizontalmente */
+`;
+
+export const ImageContainer = styled.div`
+  width: 100%;
 `;
 
 export const Image = styled.img`
@@ -38,5 +43,3 @@ export const Paragraph = styled.p`
   margin-bottom: 20px;
   text-align: justify;
 `;
-
-  

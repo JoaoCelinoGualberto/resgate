@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Section5Container = styled.section`
   background-color: #f0f0f0;
   padding: 40px;
-  padding: 1% 10%; 
+  padding: 2% 10%; 
   text-align: center;
 `;
 
@@ -18,11 +18,13 @@ export const Paragraph = styled.p`
 `;
 
 export const Button = styled.button`
-  background-color: #333;
+background-color: #4CAF50;
   color: #fff;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
   font-size: 16px;
-  border-radius: 5px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center; 
 `;

@@ -3,8 +3,9 @@ import styled from 'styled-components';
 export const Section4Container = styled.section`
   background-color: #f0f0f0;
   padding: 40px;
-  padding: 1% 10%; 
-  text-align: left;
+  padding: 5% 10%; 
+  text-align: justify;
+  
 `;
 
 export const Title = styled.h2`
