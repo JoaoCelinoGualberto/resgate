@@ -1,9 +1,8 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Section4Container = styled.section`
   background-color: #f0f0f0;
-  padding: 40px;
-  padding: 5% 10%; 
+  padding: 5% 10%;
   text-align: justify;
   display: flex;
   flex-direction: column; /* Organiza os elementos em coluna */

@@ -1,10 +1,12 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Section5Container = styled.section`
   background-color: #f0f0f0;
-  padding: 40px;
-  padding: 2% 10%; 
-  text-align: center;
+  padding: 1% 10%;
+  text-align: justify;
+  display: flex;
+  flex-direction: column; /* Organiza os elementos em coluna */
+  align-items: center; /* Centraliza os elementos horizontalmente */
 `;
 
 export const Title = styled.h2`
@@ -12,19 +14,23 @@ export const Title = styled.h2`
   margin-bottom: 20px;
 `;
 
+export const TextContainer = styled.div`
+  width: 100%;
+  max-width: 600px; /* Largura máxima do texto */
+`;
+
 export const Paragraph = styled.p`
   font-size: 18px;
   margin-bottom: 20px;
 `;
 
+
 export const Button = styled.button`
-background-color: #4CAF50;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
+  background-color: transparent;
+  color: #ff7043;
+  padding: 8px 16px; /* Aumentando o espaço interno do botão para melhor legibilidade */
+  border: 1px solid #ff7043;
   border-radius: 20px;
-  display: flex;
-  align-items: center; 
+  cursor: pointer;
+  margin-top: 10px; /* Adicionando espaço superior para o botão */
 `;

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { FaUsers, FaUtensils, FaBed, FaFutbol, FaSwimmingPool, FaBriefcase, FaSeedling, FaDove, FaBreadSlice, FaChalkboardTeacher } from 'react-icons/fa';
 
 export const Section3Container = styled.section`
   background: linear-gradient(to bottom, #ffffff, #ffccbc);
