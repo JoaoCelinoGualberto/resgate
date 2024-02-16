@@ -1,12 +1,14 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Section4Container = styled.section`
   background-color: #f0f0f0;
-  padding: 5% 10%;
+  padding: 5% 10%; 
   text-align: justify;
   display: flex;
   flex-direction: column; /* Organiza os elementos em coluna */
   align-items: center; /* Centraliza os elementos horizontalmente */
+  max-width: 100vw; /* Largura máxima da seção */
+  margin: 0 auto; /* Centralizar na tela */
 `;
 
 export const Title = styled.h2`
@@ -27,7 +29,7 @@ export const Image = styled.img`
 
 export const TextContainer = styled.div`
   width: 100%;
-  max-width: 600px; /* Largura máxima do texto */
+ max-width: 800px; 
 `;
 
 export const Paragraph = styled.p`

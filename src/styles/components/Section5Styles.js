@@ -7,6 +7,8 @@ export const Section5Container = styled.section`
   display: flex;
   flex-direction: column; /* Organiza os elementos em coluna */
   align-items: center; /* Centraliza os elementos horizontalmente */
+  max-width: 100vw; /* Largura máxima da seção */
+  margin: 0 auto; /* Centralizar na tela */
 `;
 
 export const Title = styled.h2`
@@ -16,7 +18,7 @@ export const Title = styled.h2`
 
 export const TextContainer = styled.div`
   width: 100%;
-  max-width: 600px; /* Largura máxima do texto */
+ max-width: 800px; /* Largura máxima do texto */
 `;
 
 export const Paragraph = styled.p`

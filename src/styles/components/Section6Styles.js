@@ -1,15 +1,17 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Section6Container = styled.section`
   background-color: #008080;
-  padding: 40px;
+  padding: 3% 18%;
   text-align: left;
-  padding: 5% 10%;
+  max-width: 100vw; /* Largura máxima da seção */
+  margin: 0 auto; /* Centralizar na tela */
 `;
 
 export const Title = styled.h2`
   font-size: 24px;
   margin-bottom: 20px;
+  color: #fff;
 `;
 
 export const List = styled.ul`
@@ -20,9 +22,20 @@ export const List = styled.ul`
 export const ListItem = styled.li`
   font-size: 18px;
   margin-bottom: 20px;
+  cursor: pointer;
+  border: 1px solid #fff; /* Adiciona borda branca */
+  border-radius: 5px;
+`;
+
+export const TextContainer = styled.div`
+  width: 100%;
 `;
 
 export const Question = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
   font-weight: bold;
   color: #fff;
 `;
@@ -30,4 +43,11 @@ export const Question = styled.div`
 export const Answer = styled.div`
   font-size: 15px;
   color: #fff;
+`;
+
+export const ArrowIcon = styled.div`
+  color: #fff;
+  transform: ${({ expanded }) =>
+    expanded ? "rotate(180deg)" : "rotate(0deg)"};
+  transition: transform 0.3s ease;
 `;

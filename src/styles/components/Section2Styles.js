@@ -1,4 +1,3 @@
-// styles/components/Section2Styles.js
 import styled from 'styled-components';
 import { FaRegUser, FaRegHeart, FaRegSmile, FaRegStar } from 'react-icons/fa'; 
 import { GiBrain } from "react-icons/gi";
@@ -8,6 +7,8 @@ export const Section2Container = styled.section`
   color: #000;
   padding: 3% 5%; /* Reduzindo o padding para telas menores */
   text-align: center;
+  max-width: 100vw; /* Largura máxima da seção */
+  margin: 0 auto; /* Centralizar na tela */ 
 `;
 
 export const Title = styled.h2`
@@ -23,6 +24,11 @@ export const List = styled.ul`
   justify-content: center; /* Centralizando os cards */
   flex-wrap: wrap; /* Permitindo que os cards quebrem para a próxima linha */
   gap: 20px; /* Espaçamento entre os cards */
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column; /* Altera a direção para uma coluna em telas menores */
+    align-items: center; /* Centraliza os itens verticalmente */
+  }
 `;
 
 export const Card = styled.div`

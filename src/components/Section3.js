@@ -7,18 +7,6 @@ import {
   List,
   ListItem,
 } from "../styles/components/Section3Styles";
-import {
-  FaUsers,
-  FaUtensils,
-  FaBed,
-  FaFutbol,
-  FaSwimmingPool,
-  FaBriefcase,
-  FaSeedling,
-  FaDove,
-  FaBreadSlice,
-  FaChalkboardTeacher,
-} from "react-icons/fa"; 
 
 const Section3 = () => {
   return (
@@ -32,37 +20,37 @@ const Section3 = () => {
       <Paragraph>
         <List>
           <ListItem>
-            <FaUsers /> Auditório para palestras{" "}
+           Auditório para palestras{" "}
           </ListItem>
           <ListItem>
-            <FaUtensils /> Refeitório com banheiro
+            Refeitório com banheiro
           </ListItem>
           <ListItem>
-            <FaBed /> Dormitórios com banheiro
+             Dormitórios com banheiro
           </ListItem>
           <ListItem>
-            <FaUtensils /> Cozinha
+             Cozinha
           </ListItem>
           <ListItem>
-            <FaFutbol /> Espaço para Esporte/Lazer
+            Espaço para Esporte/Lazer
           </ListItem>
           <ListItem>
-            <FaSwimmingPool /> Piscina
+          Piscina
           </ListItem>
           <ListItem>
-            <FaBriefcase /> Escritório
+            Escritório
           </ListItem>
           <ListItem>
-            <FaSeedling /> Horticultura
+            Horticultura
           </ListItem>
           <ListItem>
-            <FaDove /> Criação de aves
+           Criação de aves
           </ListItem>
           <ListItem>
-            <FaBreadSlice /> Cozinha para cursos de panificação
+             Cozinha para cursos de panificação
           </ListItem>
           <ListItem>
-            <FaChalkboardTeacher /> Sala para cursos profissionalizantes
+           Sala para cursos profissionalizantes
           </ListItem>
         </List>
       </Paragraph>

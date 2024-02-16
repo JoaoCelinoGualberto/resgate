@@ -3,6 +3,8 @@ import styled from 'styled-components';
 export const Section3Container = styled.section`
   background: linear-gradient(to bottom, #ffffff, #ffccbc);
   padding: 3% 10%;
+  max-width: 100vw; /* Largura máxima da seção */
+  margin: 0 auto; /* Centralizar na tela */
 `;
 
 export const Title = styled.h2`

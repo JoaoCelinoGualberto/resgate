@@ -4,8 +4,8 @@ import styled from "styled-components";
 export const Section1Container = styled.section`
   position: relative; /* Define o contexto de posicionamento */
   background: linear-gradient(to bottom, #ffffff, #ffccbc);
-  padding: 5% 10%; /* Ajuste do padding para telas menores */
-  max-width: 1200px; /* Largura máxima da seção */
+  padding: 1% 10%; /* Ajuste do padding para telas menores */
+  max-width: 100vw; /* Largura máxima da seção */
   margin: 0 auto; /* Centralizar na tela */
 `;
 
@@ -17,7 +17,7 @@ export const ContentContainer = styled.div`
 `;
 
 export const Content = styled.div`
-  max-width: 600px; /* Limitando a largura do conteúdo */
+ max-width: 800px; /* Limitando a largura do conteúdo */
   margin: 0 auto; /* Centralizar o conteúdo horizontalmente */
 `;
 
@@ -27,7 +27,7 @@ export const ImageContainer = styled.div`
 
 export const Image = styled.img`
   width: 100%; /* Alterado para ocupar toda a largura disponível */
-  max-width: 600px; /* Limitando a largura da imagem */
+ max-width: 800px; /* Limitando a largura da imagem */
   height: auto;
   border-radius: 15px 50px 15px 50px;
 `;

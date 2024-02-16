@@ -1,29 +1,28 @@
-// styles/components/HeaderStyles.js
 import styled, { css } from 'styled-components';
 
 export const HeaderContainer = styled.header`
   background-color: #fff;
   color: #FF7043;
-  padding: 1% 5%; /* Ajuste do padding para telas menores */
-  max-width: 1200px; /* Largura máxima do cabeçalho */
-  margin: 0 auto; /* Centralizar na tela */
+  padding: 1% 5%; 
+  max-width: 100vw; 
+  margin: 0 auto; 
 `;
 
 export const HeaderContent = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap; /* Permitir que os elementos quebrem para a próxima linha em telas menores */
+  flex-wrap: wrap;
 `;
 
 export const Logo = styled.img`
   width: auto;
-  height: 60px; /* Definindo altura fixa para o logotipo */
-  margin-right: 20px; /* Espaçamento entre o logotipo e os outros elementos */
+  height: 60px; 
+  margin-right: 20px; 
 `;
 
 export const Title = styled.h1`
-  font-size: 24px; /* Reduzindo o tamanho do título para telas menores */
+  font-size: 24px; 
   margin: 0; 
   font-weight: normal;
 `;
