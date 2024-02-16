@@ -11,8 +11,8 @@ const Section5 = () => {
     <Section5Container>
       <TextContainer>
         <Paragraph>
-          Missão se faz com os joelhos de quem ora, com os pés de quem vai e com
-          o dinheiro de quem investe.
+          "Missão se faz com os joelhos de quem ora, com os pés de quem vai e com
+          o dinheiro de quem investe."
         </Paragraph>
       </TextContainer>
       <Button>SALVE VIDAS</Button>

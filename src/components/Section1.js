@@ -23,7 +23,7 @@ const CarouselSection = () => {
   return (
     <Section1Container>
       <Content>
-        <Title>Apoie o Projeto Resgate</Title>
+        <Title>Conheça o Projeto Resgate</Title>
         <Paragraph>
           Junte-se a nós para construir um refúgio para aqueles que precisam! Vamos mudar vidas, transformar histórias e restaurar famílias com fé, foco e determinação. O seu apoio fará a diferença na vida de dependentes químicos e mulheres em situação de vulnerabilidade, através da nossa vida Deus vai resgatar milhões de outras vidas.
         </Paragraph>

@@ -15,6 +15,7 @@ export const Title = styled.h2`
   font-size: 23px; 
   margin-bottom: 20px; 
   font-weight: 500;
+  padding-top: 2%;
 `;
 
 export const List = styled.ul`

@@ -25,7 +25,6 @@ const Section6 = () => {
   return (
     <Section6Container>
       <Title>
-      <CiCircleQuestion />
          Perguntas Frequentes</Title>
       <List>
         {faqData.map((item, index) => (

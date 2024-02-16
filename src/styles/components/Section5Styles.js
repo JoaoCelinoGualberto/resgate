@@ -31,7 +31,7 @@ export const Button = styled.button`
   background-color: transparent;
   color: #ff7043;
   padding: 8px 16px; /* Aumentando o espaço interno do botão para melhor legibilidade */
-  border: 1px solid #ff7043;
+  border: 2px solid #ff7043;
   border-radius: 20px;
   cursor: pointer;
   margin-top: 10px; /* Adicionando espaço superior para o botão */

@@ -33,16 +33,21 @@ export const TextContainer = styled.div`
 
 export const Question = styled.div`
   display: flex;
-  align-items: center;
+  align-items: center; /* Adiciona alinhamento vertical */
   justify-content: space-between;
   padding: 10px;
   font-weight: bold;
   color: #fff;
+  margin-bottom: 0.01em; /* Adiciona espaçamento inferior entre as perguntas e respostas */
 `;
 
 export const Answer = styled.div`
   font-size: 15px;
   color: #fff;
+  display: flex; /* Adiciona display flex para alinhamento vertical */
+  align-items: center; /* Adiciona alinhamento vertical */
+  margin-left: 1.2%;
+  padding-bottom: 2%;
 `;
 
 export const ArrowIcon = styled.div`

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Section4Container = styled.section`
-  background-color: #f0f0f0;
+  background: linear-gradient(to bottom, #b0e0e6, #87ceeb);
   padding: 5% 10%; 
   text-align: justify;
   display: flex;

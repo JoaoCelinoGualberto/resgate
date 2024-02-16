@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const Section1Container = styled.section`
   position: relative; /* Define o contexto de posicionamento */
   background: linear-gradient(to bottom, #ffffff, #ffccbc);
-  padding: 1% 10%; /* Ajuste do padding para telas menores */
+  padding: 1% 10%; 
   max-width: 100vw; /* Largura máxima da seção */
   margin: 0 auto; /* Centralizar na tela */
 `;
@@ -14,6 +14,7 @@ export const ContentContainer = styled.div`
   flex-direction: column;
   align-items: center; /* Centralizar o conteúdo horizontalmente */
   text-align: center;
+  padding-bottom: 2% ; 
 `;
 
 export const Content = styled.div`
